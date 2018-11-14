@@ -14,7 +14,7 @@
 
 ## Contributor
 - [piupiu](https://www.kaggle.com/pureheart)
-- [30CrMnSiA](https://www.kaggle.com/baomengjiao)
+- [30CrMnSiA](https://www.kaggle.com/h4211819)
 - [spongebob](https://www.kaggle.com/baomengjiao)
 
 
@@ -41,4 +41,6 @@
 
 - 信息分享 :sparkles: [DataSciComp](https://github.com/iphysresearch/DataSciComp)
  
-- 方案及套路分享 :fire: [砍手豪的知乎专栏](https://zhuanlan.zhihu.com/c_32887913) [数据科学之旅](https://zhuanlan.zhihu.com/c_173835749) 
+- 方案及套路分享 :fire: [砍手豪的知乎专栏](https://zhuanlan.zhihu.com/c_32887913) [数据科学之旅](https://zhuanlan.zhihu.com/c_173835749)
+
+[i数据智能](http://github.com/PPshrimpGo/BDCI2018-ChinauUicom-1st-solution/raw/master/images/q.jpg) 
