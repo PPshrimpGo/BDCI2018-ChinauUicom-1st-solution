@@ -94,7 +94,6 @@ test = pd.read_csv(data_path + 'test.csv',dtype=str_dict)
 test = deal(test)
 
 ####################################读入stacking文件####################################################
-#包括hzs的三个pred文件，piupiu的两个文件，SpongeBob的价格文件，以及hzs的get_most文件    
 
 train_p =  pd.read_csv('./cv/val_prob_model_1.csv')
 train = train.merge(train_p,on='user_id',how='left')
@@ -125,13 +124,11 @@ print(len(label2current_service))
 train = train.append(test).reset_index(drop = True)
 
 
-#piupiu的两个文件
-# piupiu_p = pd.read_csv('data_preds_xgb1_20181030_050913.csv')
-# train = train.merge(piupiu_p,on='user_id',how='left')
-# piupiu_p2 = pd.read_csv('data_preds_xgb1_20181030_230142.csv')
-# train = train.merge(piupiu_p2,on='user_id',how='left')
+piupiu_p = pd.read_csv('data_preds_xgb1_20181030_050913.csv')
+train = train.merge(piupiu_p,on='user_id',how='left')
+piupiu_p2 = pd.read_csv('data_preds_xgb1_20181030_230142.csv')
+train = train.merge(piupiu_p2,on='user_id',how='left')
 
-#hzs的get_most文件 
 get_most = pd.read_csv('Magic_Feature_Exclude_Old.csv')       #不包括初赛的
 get_most2 = pd.read_csv('Magic_Feature_Include_Old.csv')  #包括初赛的
 
