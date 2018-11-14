@@ -72,6 +72,7 @@ def get_magic_feature(df, outname):
     df.drop_duplicates(subset =['1_total_fee','2_total_fee','3_total_fee', '4_total_fee'],inplace=True)
     df = df[df.fea_unum>2]
     for month1_month2 in [
+        [1,2],
         [1,3],
         [1,4],
         [2,1],
@@ -88,7 +89,7 @@ def get_magic_feature(df, outname):
         mstr = '_total_fee'
         tmp = df.groupby([month1 + mstr, month2 + mstr]).size().reset_index()
         tmp.columns =['first','second','{}_total_fee_{}_total_fee'.format(month1,month2)]
-        if month1_month2 == [1,3]:
+        if month1_month2 == [1,2]:
             result_df = tmp
         else:
             result_df = result_df.merge(tmp, on = ['first','second'], how = 'outer')
