@@ -12,6 +12,12 @@
 
 - 单模型可达第一名
 
+## Contributor
+- [piupiu](https://www.kaggle.com/pureheart)
+- [30CrMnSiA](https://www.kaggle.com/baomengjiao)
+- [spongebob](https://www.kaggle.com/baomengjiao)
+
+
 ## Requirements
  - python3
  - lightgbm 2.1.1
@@ -21,7 +27,7 @@
  - xgboost 0.72.1
 
 
-## How2run
+## 运行方法
  - trian_old.csv(初赛训练集) | train.csv | test.csv -> input folder
  - pip3 install -r requirements.txt
  - ./run.sh
@@ -35,4 +41,4 @@
 
 - 信息分享 :sparkles: [DataSciComp](https://github.com/iphysresearch/DataSciComp)
  
-- 方案及套路分享 :fire: [砍手豪的知乎专栏](https://zhuanlan.zhihu.com/c_32887913) [数据科学之旅](https://zhuanlan.zhihu.com/c_173835749) 贴个二维码..
+- 方案及套路分享 :fire: [砍手豪的知乎专栏](https://zhuanlan.zhihu.com/c_32887913) [数据科学之旅](https://zhuanlan.zhihu.com/c_173835749) 
