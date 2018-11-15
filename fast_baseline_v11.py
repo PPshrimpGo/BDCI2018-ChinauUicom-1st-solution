@@ -237,7 +237,7 @@ train['2-fea-dealta_'] = train['2_total_fee'] / (train['1_total_fee']+0.00001)
 train['1-fea-dealta_'] = train['4_total_fee'] / (train['1_total_fee']+0.00001)
 train['pay_num-dealta_'] = train['pay_num'] / (train['1_total_fee']+0.00001)
 
-train['fea-dealta_p'] = train['1_total_fee'] - train['fee_pred']
+#train['fea-dealta_p'] = train['1_total_fee'] - train['fee_pred']
 
 train['month_traffic_delata'] = train['month_traffic'] - train['last_month_traffic']
 train['month_traffic_delata_'] = train['month_traffic'] / (train['last_month_traffic']+0.00001)

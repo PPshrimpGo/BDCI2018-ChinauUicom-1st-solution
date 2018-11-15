@@ -23,7 +23,7 @@ from sklearn.cross_validation import KFold
 from sklearn.metrics import precision_score
 from joblib import dump, load, Parallel, delayed
 from sklearn.linear_model import LinearRegression
-from sklearn.model_selection import  StratifiedKFold
+from sklearn.model_selection import  StratifiedKFold, GroupKFold
 from sklearn.decomposition import NMF, PCA, TruncatedSVD
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.decomposition import LatentDirichletAllocation as LDA
