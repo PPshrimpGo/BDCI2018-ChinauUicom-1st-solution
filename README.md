@@ -10,7 +10,7 @@
 
 ## Highlight
 
-- 单模型可达第一名
+- 嫁接单模型可达第一名
 
 ## Contributor
 - [piupiu](https://www.kaggle.com/pureheart)

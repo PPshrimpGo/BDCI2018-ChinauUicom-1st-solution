@@ -22,6 +22,16 @@ fi
 #model 2
 if [ $stage -le 2 ]; then
   python3 model2.py
-  echo '**' `date +%H:%M:%S` 'finished model1'
+  echo '**' `date +%H:%M:%S` 'finished jiajie model2'
+fi
+
+if [ $stage -le 3 ]; then
+  python3 fast_baseline_v11.py
+  echo '**' `date +%H:%M:%S` 'finished final'
+fi
+
+if [ $stage -le 4 ]; then
+  python3 piupiu_white.py
+  echo '**' `date +%H:%M:%S` 'finished piupiuwhite,sub_final_while'
 fi
 
