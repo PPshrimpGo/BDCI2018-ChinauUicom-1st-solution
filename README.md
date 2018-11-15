@@ -30,6 +30,8 @@
 ## 运行方法
  - trian_old.csv(初赛训练集) | train.csv | test.csv -> input folder
  - pip3 install -r requirements.txt
+ - chmod +x run_top1.sh
+ - chmod +x run_perfect.sh
  - ./run_top1.sh (复现leaderboard第一)
  - ./run_perfect.sh (完美复现)
 
