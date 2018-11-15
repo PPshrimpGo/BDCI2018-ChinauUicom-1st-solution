@@ -103,7 +103,7 @@ def get_magic_feature(df, outname):
     tmpall =  tmpall [tmpall['count']>10]
     tmpall = tmpall.sort_values(['first','count'],ascending=False)
     tmp_res = tmpall.drop_duplicates('first',keep='first')
-    tmp_res[tmp_res['count']>10].to_csv(output_path + outname, columns = ['first','count'],index = False)
+    tmp_res[tmp_res['count']>10].to_csv(output_path + outname, columns = ['first','second'],index = False)
     
 # Magic_Feature_Exclude_Old
 train = train.append(test).reset_index(drop = True)
