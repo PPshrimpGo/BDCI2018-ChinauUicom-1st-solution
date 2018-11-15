@@ -1,6 +1,6 @@
 #!/bin/bash
 
-stage=7
+stage=0
 
 echo '**' `date +%H:%M:%S` 'start with stage=' $stage 
 echo 'Any question contact QQ:674785731'
