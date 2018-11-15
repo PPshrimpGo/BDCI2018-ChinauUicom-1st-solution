@@ -107,9 +107,9 @@ def get_magic_feature(df, outname):
     
 # Magic_Feature_Exclude_Old
 train = train.append(test).reset_index(drop = True)
-get_magic_feature(train, 'Magic_Feature_Exclude_Old.csv')
 train.drop_duplicates(subset = ['1_total_fee','2_total_fee','3_total_fee',
  'month_traffic','pay_times','last_month_traffic','service2_caller_time','age'],inplace=True)
+get_magic_feature(train, 'Magic_Feature_Exclude_Old.csv')
 
 # Magic_Feature_Include_Old
 train = train.append(train_old).reset_index(drop = True)

@@ -34,20 +34,13 @@ train = train[train['current_service'] != 999999]
 test = deal(test)
 
 cc = [
-    'is_mix_service',
-    'online_time',
+    '1_total_fee',
     '2_total_fee',
     '3_total_fee',
-    '4_total_fee',
-    'many_over_bill',
-    'contract_type',
-    'contract_time',
-    'is_promise_low_consume',
-    'net_service',
+    'month_traffic',
     'pay_times',
-    'pay_num',
     'last_month_traffic',
-    'gender',
+    'service2_caller_time',
     'age'
 ]
 
