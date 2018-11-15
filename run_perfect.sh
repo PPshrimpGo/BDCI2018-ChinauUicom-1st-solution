@@ -10,6 +10,10 @@ mkdir -p sub
 mkdir -p cache
 mkdir -p data/a
 mkdir -p data/b
+cp input/train_old.csv data/a/train.csv
+cp input/train.csv data/b/train_new.csv
+cp input/test.csv data/b/test_new.csv
+
 
 # gen magic feature
 if [ $stage -le 0 ]; then
