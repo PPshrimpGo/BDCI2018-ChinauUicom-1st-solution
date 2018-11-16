@@ -462,7 +462,7 @@ def kfold_lightgbm(params,df, predictors,target,num_folds, stratified = True,
         print("test_df mean:")
     
     display_importances(feature_importance_df,score)
-    gen_top1()
+    #gen_top1()
 
 
 
