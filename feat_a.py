@@ -1,4 +1,4 @@
-from tool.tool import *
+from tool import *
 
 cache_path = '/'
 inplace = False

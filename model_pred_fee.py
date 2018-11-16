@@ -540,4 +540,5 @@ categorical_columns = [f for f in categorical_columns if f not in no_use]
 train['1_total_fee'] = train['1_total_fee'].astype(float)
 #train_old = train.iloc[shape1:shape2]
 #train = train.iloc[:shape1]
-clf = kfold_lightgbm(params,train,feats,'1_total_fee' ,5 , num_boost_round=1, categorical_features=categorical_columns)#2000
+#4000`:
+clf = kfold_lightgbm(params,train,feats,'1_total_fee' ,5 , num_boost_round=4000, categorical_features=categorical_columns)#2000
