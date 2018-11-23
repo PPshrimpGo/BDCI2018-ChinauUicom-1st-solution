@@ -106,9 +106,9 @@ test = deal(test)
 #test_p =  pd.read_csv('sub_prob_hebing2.csv')
 #test = test.merge(test_p,on='user_id',how='left')
 
-train_p =  pd.read_csv('./cv/val_prob_model_2.csv')
+train_p =  pd.read_csv('./cv/val_prob_model_1.csv')
 train = train.merge(train_p,on='user_id',how='left')
-test_p =  pd.read_csv('./cv/sub_prob_model_2.csv')
+test_p =  pd.read_csv('./cv/sub_prob_model_1.csv')
 test = test.merge(test_p,on='user_id',how='left')
 
 #test_total_fee = pd.read_csv('./sub/sub_fee_pred.csv')
