@@ -22,7 +22,7 @@ fi
 #model 2
 if [ $stage -le 2 ]; then
   python3 model1.py
-  echo '**' `date +%H:%M:%S` 'finished jiajie model2'
+  echo '**' `date +%H:%M:%S` 'finished jiajie model1'
 fi
 
 if [ $stage -le 3 ]; then
